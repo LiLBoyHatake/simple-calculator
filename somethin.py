@@ -1,8 +1,11 @@
 import time
 
 
+start = input('Want to use the calculator? (Y for yes) - ')
+
+
 #Function
-def equation():
+if start == 'Y':
     #Define everything
     x1 = int(input('Please enter your first number - '))
     time.sleep(.5)
@@ -15,5 +18,8 @@ def equation():
         print(x1 + x2)
     elif oper == '-':
         print(x1 - x2)
+    
+else:
+    print("Error please make sure everything is correct")
+    pass
 
-equation()
