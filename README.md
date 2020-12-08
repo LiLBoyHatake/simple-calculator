@@ -1,8 +1,8 @@
 Okay so pretty simple, the console will ask for two numbers and a operator.
 
-The current operators are:
-Addition (+)
+Operators:
 Subtraction(-)
+Addition(+)
+Division(/)
 
-
-I will be adding more tmrw, I just did this because I wanted to do something before I went to bed.
+Currently when it ask's you 'Y for yes' it only accepts a CAPITAL Y, I will change this soon.
