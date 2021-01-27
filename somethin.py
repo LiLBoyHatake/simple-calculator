@@ -105,4 +105,8 @@ if __name__ == '__main__':
         command=lambda: touch('.'), height=1, width=7)
     decimal.grid(row=6, column=0)
 
+    equals = Button(gui, text = ' = ', fg='black', bg='red', 
+        command=lambda: equalspress(), height=1, width=7)
+    equals.grid(row=6, column=3)
+
     gui.mainloop()
